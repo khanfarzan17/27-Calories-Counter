@@ -1,0 +1,28 @@
+.food-summary {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.Summary-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1d1d1d;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: #1d1d1d;
+  margin: 10px 0;
+}
+
+.paragraph:nth-child(odd) {
+  background-color: #f9f9f95a;
+  padding: 10px;
+  border-radius: 4px;
+}

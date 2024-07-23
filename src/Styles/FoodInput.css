@@ -1,0 +1,52 @@
+.form-container {
+  background-color: #f9f9f9; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 20px auto; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border: 1px solid ;
+}
+
+.form-label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #000;
+  width: 100%;
+}
+
+input[type="text"], input[type="number"], select {
+  width: calc(100% - 30px); 
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  background: #1d7615;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; 
+  max-width: 200px; 
+  margin: 10px auto; 
+  transition: background 0.3s ease, transform 0.3s ease; 
+  margin-left: 9px;
+}
+
+button:hover {
+  background: #2b71db; 
+  transform: scale(1.05); 
+}
+
+button:active {
+  transform: scale(0.95); 
+}
